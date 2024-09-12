@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import imageHero from "../../../public/assets/images/foto-safari.png";
 import Image from "next/image";
+import { MotionDiv, MotionImage } from "@/utils/motionTags";
+import { transition, variants } from "@/utils/framerVariant";
 
 export default function Hero() {
   return (
@@ -12,6 +14,12 @@ export default function Hero() {
         </div>
         <div className="flex flex-wrap">
           <div className="w-full self-center mb-20 px-4 lg:w-1/2">
+            <MotionDiv
+                initial="initial"
+                animate="animate"
+                variants={variants.moveRight}
+                transition={transition.moveRight}
+            >
             <h1 className="text-base font-semibold text-primary md:text-xl">
               {" "}
               Hai Every one 👋 I'am
@@ -44,14 +52,22 @@ export default function Hero() {
               {" "}
               Contact
             </Link>
+            </MotionDiv>
           </div>
           <div className="w-full self-end px-4 lg:w-1/2">
             <div className="relative mt-10 lg:mt-0  lg:right-0 ">
-              <Image
+              <MotionImage
+                 initial="initial"
+                 animate="animate"
+                 variants={variants.moveLeft}
+                 transition={{
+                   ...transition.moveLeft,
+                   delay: 1.5,
+                 }}
                 src={imageHero}
                 alt="Hero Sections"
                 placeholder="empty"
-                className="max-w-full max-auto hover:shadow-sm hover:translate-y-1 duration-300"
+                className="object-cover"
               />
               <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
                 <svg

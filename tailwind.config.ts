@@ -7,20 +7,20 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    container:{
-      center:true,
-      padding:'16px'
+    container: {
+      center: true,
+      padding: "16px",
+      screens: {
+        "2xl": "1150px",
+      },
     },
-    extend: {
+    extend: { 
       colors: {
         primary: "#257290",
         dark : '#151414',
         secondary: '#64748b',
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
-      screens:{
-        '2xl': '1320px'
       }
     },
   },
