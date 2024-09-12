@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import fotoHero from "../../../public/assets/images/foto-safari.png";
+import imageHero from "../../../public/assets/images/foto-safari.png";
 import Image from "next/image";
 
 export default function Hero() {
@@ -16,7 +16,7 @@ export default function Hero() {
                 Eri Safari
               </span>
             </h1>
-            <h2 className="font-medium text-seconday text-lg mb-3 lg:text-2xl">
+            <h2 className="font-medium text-secondary text-lg mb-3 lg:text-2xl">
               {" "}
               Web <span className="text-dark font-bold">Developer</span>{" "}
             </h2>
@@ -30,7 +30,7 @@ export default function Hero() {
                 {" "}
                 Email :{" "}
                 <span className="font-bold text-dark">
-                  safai.erie@gmail.com
+                  safari.erie@gmail.com
                 </span>
               </li>
             </ul>
@@ -45,7 +45,7 @@ export default function Hero() {
           <div className="w-full self-end px-4 lg:w-1/2">
             <div className="relative mt-10 lg:mt-0  lg:right-0">
               <Image
-                src={fotoHero}
+                src={imageHero}
                 alt="Hero Sections"
                 placeholder="empty"
                 className="max-w-full max-auto"
