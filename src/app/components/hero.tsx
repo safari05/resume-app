@@ -7,6 +7,9 @@ export default function Hero() {
   return (
     <section id="home" className="pt-36">
       <div className="container">
+        <div className="w-72 h-72 bg-blue-300 rounded-full blur-3xl -z-10 opacity-40 absolute">
+
+        </div>
         <div className="flex flex-wrap">
           <div className="w-full self-center mb-20 px-4 lg:w-1/2">
             <h1 className="text-base font-semibold text-primary md:text-xl">
@@ -30,7 +33,7 @@ export default function Hero() {
                 {" "}
                 Email :{" "}
                 <span className="font-bold text-dark">
-                  safai.erie@gmail.com
+                  safari.erie@gmail.com
                 </span>
               </li>
             </ul>
@@ -43,14 +46,14 @@ export default function Hero() {
             </Link>
           </div>
           <div className="w-full self-end px-4 lg:w-1/2">
-            <div className="relative mt-10 lg:mt-0  lg:right-0">
+            <div className="relative mt-10 lg:mt-0  lg:right-0 ">
               <Image
                 src={fotoHero}
                 alt="Hero Sections"
                 placeholder="empty"
-                className="max-w-full max-auto"
+                className="max-w-full max-auto hover:shadow-sm hover:translate-y-1 duration-300"
               />
-              <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125 lg">
+              <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
                 <svg
                   width={700}
                   height={700}
