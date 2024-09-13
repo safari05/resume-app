@@ -8,7 +8,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Swiper as SwiperType } from 'swiper';
+import SwiperCore from 'swiper';
 import { cn } from '@/lib/utils'
 import 'swiper/css'
 
