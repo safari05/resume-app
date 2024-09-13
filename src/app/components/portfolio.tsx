@@ -28,7 +28,7 @@ export default function Portfolio() {
               Open Data: Accessible to the public for general use.
               Limited Data: Accessible to specific government departments (OPD) with controlled permissions.
               Closed Data: Restricted to authorized personnel within the OPD.
-              The platform is integrated with One Indonesian Data (https://data.go.id), ensuring consistency and interoperability across national data systems."
+              The platform is integrated with One Indonesian Data (https://data.go.id), ensuring consistency and interoperability across national data systems.
             </p>
           </div>
         </div>

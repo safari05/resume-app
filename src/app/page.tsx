@@ -1,14 +1,12 @@
-import Image from "next/image";
+
 import Hero from "./components/hero";
-import About from "./components/about";
-import Portfolio from "./components/portfolio";
+//import { Luckiest_Guy } from "next/font/google";
+
+//const luck = Luckiest_Guy({ subsets: ["latin"], weight: ["400"] });
+
 
 export default function Home() {
   return (
-   <main>
-     <Hero/>
-     <About/>
-     <Portfolio/>
-   </main>
+      <Hero/>
   );
 }

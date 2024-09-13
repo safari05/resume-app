@@ -1,18 +1,23 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Anek_Latin } from "next/font/google";
+const anek = Anek_Latin({ subsets: ["latin"] });
 import "./globals.css";
-import Header from "./components/header";
+import { cn } from "@/utils/classNames";
+import Menu from "./components/container/menu";
+import Footer from "./components/container/footer";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+//import Header from "./components/header";
+
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
 
 export const metadata: Metadata = {
   title: "Eri Resume Profile",
@@ -26,11 +31,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Header/>
-        {children}
+      <body className={cn("bg-background", anek.className)}>
+        <Menu/>
+        <main className="min-h-screen">{children}</main>
+        <Footer/>
       </body>
     </html>
   );
