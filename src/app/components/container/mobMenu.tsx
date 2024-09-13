@@ -2,12 +2,8 @@
 import * as React from "react";
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
   DrawerHeader,
-  DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import { Button } from "@/components/ui/button";
@@ -36,7 +32,7 @@ export default function MobMenu({ pathname} :MobMenuProps) {
         </Button>
       </DrawerTrigger>
 
-      <DrawerContent className="bg-teal-100 ">
+      <DrawerContent className=" ">
         <div className="max-w-sm mx-auto w-full">
             <DrawerHeader className="list-none space-y-6">
             {ROUTES.map((route) => (

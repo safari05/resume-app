@@ -5,8 +5,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 import logoImg from "../../../../public/assets/images/logo.png";
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import MobMenu from "./mobMenu";
 import { MotionImage, MotionList } from "@/utils/motionTags";
 import { transition, variants } from "@/utils/framerVariant";
@@ -16,7 +14,7 @@ export default function Menu() {
   return (
     <header
       className={cn(
-        "fixed z-50 left-0 right-0 bg-blue-200",
+        "fixed z-50 left-0 right-0 ",
         pathname !== "/"
       )}
     >

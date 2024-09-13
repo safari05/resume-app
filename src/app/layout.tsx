@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Anek_Latin } from "next/font/google";
 const anek = Anek_Latin({ subsets: ["latin"] });
-
-import localFont from "next/font/local";
 import "./globals.css";
 import { cn } from "@/utils/classNames";
 import Menu from "./components/container/menu";
