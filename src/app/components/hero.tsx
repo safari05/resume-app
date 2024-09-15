@@ -7,12 +7,12 @@ import { transition, variants } from "@/utils/framerVariant";
 export default function Hero() {
   return (
     <section id="home" className="pt-36">
-      <div className="h-dvh  overflow-hidden md:flex-row  pt-10 container">
+      <div className="overflow-hidden md:flex-row  pt-10 container">
         <div className="w-72 h-72 bg-blue-300 rounded-full blur-3xl -z-10 opacity-40 absolute">
 
         </div>
         <div className="flex flex-wrap">
-          <div className="w-full self-center mb-20 px-4 lg:w-1/2">
+          <div className="w-full self-center mb-20 px-4 lg:w-1/2 sm:justify-center">
             <MotionDiv
                 initial="initial"
                 animate="animate"
