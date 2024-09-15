@@ -1,5 +1,6 @@
 
 import Hero from "./components/hero";
+import Technology from "./components/technology";
 //import { Luckiest_Guy } from "next/font/google";
 
 //const luck = Luckiest_Guy({ subsets: ["latin"], weight: ["400"] });
@@ -7,6 +8,9 @@ import Hero from "./components/hero";
 
 export default function Home() {
   return (
-      <Hero/>
+      <>
+        <Hero/>
+        <Technology/>
+      </>
   );
 }
