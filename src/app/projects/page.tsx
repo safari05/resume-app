@@ -11,35 +11,32 @@ import { transition, variants } from "@/utils/framerVariant";
 import { MotionDiv } from "@/utils/motionTags";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore from "swiper";
-import { cn } from "@/lib/utils";
-import "swiper/css";
+//import SwiperCore from "swiper";
+//import "swiper/css";
 
-type SlideChangeItem = {
-  activeIndex: number;
-};
+// type SlideChangeItem = {
+//   activeIndex: number;
+// };
 
 export default function ProjectPage() {
-  const [currentProject, setCurrentProject] = useState(PROJECTS[0]);
-  const [swiper, setSwiper] = useState<SwiperCore | null>(null);
+  //const [currentProject, setCurrentProject] = useState(PROJECTS[0]);
+  //const [swiper, setSwiper] = useState<SwiperCore | null>(null);
   //const [swipper, setSwiper] = useState(null);
 
-  const onSlideChange = (item: SlideChangeItem) => {
-    setCurrentProject(PROJECTS[item?.activeIndex]);
-  };
+  // const onSlideChange = (item: SlideChangeItem) => {
+  //   setCurrentProject(PROJECTS[item?.activeIndex]);
+  // };
 
-  const index =
-    PROJECTS.findIndex((project) => project.title === currentProject.title) + 1;
+  // const index =
+  //   PROJECTS.findIndex((project) => project.title === currentProject.title) + 1;
 
-  const nextTo = () => {
-    swiper?.slideNext();
-  };
+  // const nextTo = () => {
+  //   swiper?.slideNext();
+  // };
 
-  const prev = () => {
-    swiper?.slidePrev();
-  };
+  // const prev = () => {
+  //   swiper?.slidePrev();
+  // };
   return (
     <div className="grid place-items-center lg:pt-30 sm:pt-32 pt-36 container">
       <div className="mt-12">
