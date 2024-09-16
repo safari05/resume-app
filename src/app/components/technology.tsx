@@ -1,7 +1,7 @@
 import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { DiRedis, DiNetmagazine, DiMsqlServer } from "react-icons/di";
+import { DiNetmagazine, DiMsqlServer } from "react-icons/di";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
