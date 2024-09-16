@@ -47,7 +47,8 @@ export const ROUTES = Object.freeze([
       image : '/assets/images/satu-data-muba.png',
       category : "Frontend Developer",
       stack : ["React JS","Next.js", "Tailwind"],
-      link : "https://satudata.mubakab.go.id"
+      link : "https://satudata.mubakab.go.id",
+      link_git :"https://github.com/safari05/satu-data-muba"
     },
     {
       id : 2,
@@ -56,7 +57,8 @@ export const ROUTES = Object.freeze([
       image : '/assets/images/pir.png',
       category : "Frontend Developer",
       stack : ["React JS","Gatsby", "Tailwind"],
-      link : "https://regionalinvestment.bkpm.go.id"
+      link : "https://regionalinvestment.bkpm.go.id",
+      link_git :"https://gitlab.com/safari.erie/bkpm-front-end"
     },
     {
       id : 3,
@@ -65,7 +67,8 @@ export const ROUTES = Object.freeze([
       image : '/assets/images/pir-admin.png',
       category : "Backend Developer",
       stack : ["PHP Laravel 8","Bootstrap","Postgrsql","PostGIS","Esri"],
-      link : "https://regionalinvestment.bkpm.go.id/admin/"
+      link : "https://regionalinvestment.bkpm.go.id/admin/",
+      link_git :"https://gitlab.com/safari.erie/admin-pir"
     }
   ]);
 
@@ -83,14 +86,14 @@ export const ROUTES = Object.freeze([
     {
       periode: "2022 - 2023",
       role: "Frontend Developer",
-      company: "PT.Saweri Gading",
+      company: "PT.SaweriGading Multi Kreasi",
       description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with C# (.Net 8) APIs. Implemented responsive designs and optimized frontend performance.`,
       Technologies: ["HTML", "CSS", "Next.js", "PostgreSQL"],
     },
     {
       periode: "2021 - 2022",
       role: "Full Stack Developer",
-      company: "PT.Saweri Gading",
+      company: "PT.SaweriGading Multi Kreasi",
       description: `Developed and designed APIs using PHP with the Laravel 8 framework to support frontend integration. 
                     Some API's returned response data in textual and geometric formats as GeoJSON. Also created an admin application for data maintenance.
                     Designed and developed user interfaces for web applications using Next.js and React. Worked closely to integrate frontend components with PHP Laravel. Implemented responsive designs and optimized frontend performance.
@@ -107,7 +110,7 @@ export const ROUTES = Object.freeze([
     {
       periode: "2015 - 2019",
       role: "Web Developer",
-      company: "PT. Virtua Internasional Pratama",
+      company: "PT. Virtua Internasional Pratama - (VIP)",
       description: `As a web developer at PT. Virtua Pratama, working on government-based projects such as those for the Geospatial Information, most of the work involved developing Geographic Information Systems (GIS) applications using C# programming language and PostgreSQL database `,
       Technologies: ["HTML", "CSS", ".Net MVC (C# Programming)" ,"PostgreSQL", ],
     },
