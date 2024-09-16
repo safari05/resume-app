@@ -52,7 +52,7 @@ export const ROUTES = Object.freeze([
     },
     {
       id : 2,
-      title : "PIR - Regional Invetment",
+      title : "PIR - Regional Investment",
       desc : "Pir is a geospatial-based information system for investment potential and opportunities in 38 Province 514 Regencies/Cities in Indonesia and is part of the website of the Ministry of Investment Coordination Board (BKPM). PIR contains regional profile information including demographic data, commodities, income and the Regional Minimum Wage (UMR), as well as supporting infrastructure.",
       image : '/assets/images/pir.png',
       category : "Frontend Developer",
@@ -62,7 +62,7 @@ export const ROUTES = Object.freeze([
     },
     {
       id : 3,
-      title : "PIR - Regional Invetment Admin",
+      title : "PIR - Regional Investment Admin",
       desc : "PIR Admin is a web-based platform designed for managing data on investment opportunities and commodities, sharing application authority access rights, inputting textual data, and uploading spatial data with the .shp extension",
       image : '/assets/images/pir-admin.png',
       category : "Backend Developer",
