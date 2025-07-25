@@ -21,7 +21,7 @@ export default function Hero() {
             >
             <h1 className="text-base font-semibold text-primary md:text-xl">
               {" "}
-              Hai Every one 👋 I am
+              Hai Every one 👋 I am Software Engineer
               <span className="block font-bold text-dark text-4xl mt-2 lg:text-5xl">
                 Eri Safari
               </span>
